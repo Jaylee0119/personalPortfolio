@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsl(316, 68%, 77%);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image:url("../images/abstract\ background\ portfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: cover;
+    
+}
+header h1 {
+    font-weight: bold;
+    font-size: 46px;    
+}
+.img {
+    flex-wrap: wrap;
+}
