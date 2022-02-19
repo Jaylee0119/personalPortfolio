@@ -2,6 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
+ /* Start of Header Style*/
 header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,10 @@ header h1 {
 header a {
     text-decoration: solid;
     color: aliceblue;
+    margin: 35px;
+    font-style: oblique;
+    font-weight: 500;
+
 }
 header nav {
     margin: 25px 0;
@@ -32,6 +37,47 @@ header nav ul {
     list-style: none;
     font-size: 19px;
 }
-.img {
+/* End of Style Header*/
+/* Add style for About Me*/
+.about-me{
+    float: left;
+
+}
+.work {
+    float: right;
+}
+section h2 {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    font-size: 28px;
+    margin: 20% 0 5% 0;
+}
+
+.myself {
+    margin-left: 7%;
+    position: relative;
+    padding: 1%;
+    border-style: double;
+    border-width: 10px;
+    height: "30px";
+    width: "30px";
+}
+.words{
+    text-align: right;
+    float: right;
+    position: relative;
+    align-content: flex-end;
+}
+/*End of Style for About Me*/
+/* Style of Work*/
+.sec-heading {
+    margin: 50% 0 0 0;
+    padding-top: 50;
+    display: flex;
+
+}
+
+.pic1 {
+    float: right;
 }
